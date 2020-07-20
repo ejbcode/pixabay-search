@@ -3,9 +3,11 @@ import Images from './Images';
 
 const ListOfImages = ({ data }) => {
   return (
-    <div className="row col-12 p-5">
+    <div className="card-columns">
       {data.map((item) => (
-        <Images key={item.id} {...item} />
+        <a href={item.largeImageURL} target="_blank" rel="noopener noreferrer">
+          <Images key={item.id} {...item} />
+        </a>
       ))}
     </div>
   );
