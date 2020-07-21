@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Form from './componentes/Form';
 import ListOfImages from './componentes/ListOfImages';
+import './App.css';
 
 function App() {
   const [search, setSearch] = useState('');
@@ -20,6 +21,9 @@ function App() {
       const result = await response.json();
       setData(result.hits);
       setTotalPages(Math.ceil(result.totalHits / imgPerPage));
+
+      const top = document.querySelector('#top');
+      top.scrollIntoView({ block: 'end', behavior: 'smooth' });
     };
     dataFromApi();
   }, [URL, page, search]);
@@ -36,12 +40,15 @@ function App() {
   };
   return (
     <div className="container">
-      <div className="jumbotron py-2">
-        <h2 className="text-center">Search for Image</h2>
+      <div id="top" className="jumbotron py-2 text-center">
+        <h2>Pixabay</h2>
+        <p className="lead te">Stunning free images & royalty free stock</p>
         <Form setSearch={setSearch} setPage={setPage} />
       </div>
       <div className="row justify-content-center p-3">
         <ListOfImages data={data} />
+      </div>
+      <div className="row justify-content-center">
         {page === 1 ? null : (
           <button
             type="button"
