@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "25e416a5cd495be6e6e4ecc75728e8cd",
+    "revision": "2d225d7e27cb03d6a6f7ff1595b70343",
     "url": "/pixabay-search/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pixabay-search/static/js/2.25f00877.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "07c869dc6379d2ce37fb",
-    "url": "/pixabay-search/static/js/main.d8e10817.chunk.js"
+    "revision": "f1bb0cde4a879d8a154c",
+    "url": "/pixabay-search/static/js/main.22ed6bd4.chunk.js"
   },
   {
     "revision": "11323cc95265486df318",

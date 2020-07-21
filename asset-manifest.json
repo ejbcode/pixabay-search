@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/pixabay-search/static/js/main.d8e10817.chunk.js",
-    "main.js.map": "/pixabay-search/static/js/main.d8e10817.chunk.js.map",
+    "main.js": "/pixabay-search/static/js/main.22ed6bd4.chunk.js",
+    "main.js.map": "/pixabay-search/static/js/main.22ed6bd4.chunk.js.map",
     "runtime-main.js": "/pixabay-search/static/js/runtime-main.5d10d0fa.js",
     "runtime-main.js.map": "/pixabay-search/static/js/runtime-main.5d10d0fa.js.map",
     "static/js/2.25f00877.chunk.js": "/pixabay-search/static/js/2.25f00877.chunk.js",
     "static/js/2.25f00877.chunk.js.map": "/pixabay-search/static/js/2.25f00877.chunk.js.map",
     "index.html": "/pixabay-search/index.html",
-    "precache-manifest.11a40dfb303a196363cd0c2b849cbb81.js": "/pixabay-search/precache-manifest.11a40dfb303a196363cd0c2b849cbb81.js",
+    "precache-manifest.c970fd2239f28e5247b2a677a257265d.js": "/pixabay-search/precache-manifest.c970fd2239f28e5247b2a677a257265d.js",
     "service-worker.js": "/pixabay-search/service-worker.js",
     "static/js/2.25f00877.chunk.js.LICENSE.txt": "/pixabay-search/static/js/2.25f00877.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5d10d0fa.js",
     "static/js/2.25f00877.chunk.js",
-    "static/js/main.d8e10817.chunk.js"
+    "static/js/main.22ed6bd4.chunk.js"
   ]
 }
